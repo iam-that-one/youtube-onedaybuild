@@ -13,6 +13,9 @@
 		B86BCFCE257032C90082D233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86BCFCC257032C90082D233 /* Main.storyboard */; };
 		B86BCFD0257032CE0082D233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86BCFCF257032CE0082D233 /* Assets.xcassets */; };
 		B86BCFD3257032CE0082D233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86BCFD1257032CE0082D233 /* LaunchScreen.storyboard */; };
+		B86BCFDC257074CF0082D233 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCFDB257074CF0082D233 /* Constant.swift */; };
+		B86BCFDF257079250082D233 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCFDE257079250082D233 /* Video.swift */; };
+		B86BCFE225707A160082D233 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCFE125707A160082D233 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B86BCFCF257032CE0082D233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B86BCFD2257032CE0082D233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B86BCFD4257032CE0082D233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86BCFDB257074CF0082D233 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B86BCFDE257079250082D233 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		B86BCFE125707A160082D233 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 		B86BCFBA257032C90082D233 = {
 			isa = PBXGroup;
 			children = (
+				B86BCFE125707A160082D233 /* Model.swift */,
+				B86BCFDE257079250082D233 /* Video.swift */,
+				B86BCFDB257074CF0082D233 /* Constant.swift */,
 				B86BCFC5257032C90082D233 /* youtube-onedaybuild */,
 				B86BCFC4257032C90082D233 /* Products */,
 			);
@@ -140,6 +149,9 @@
 				B86BCFCB257032C90082D233 /* ViewController.swift in Sources */,
 				B86BCFC7257032C90082D233 /* AppDelegate.swift in Sources */,
 				B86BCFC9257032C90082D233 /* SceneDelegate.swift in Sources */,
+				B86BCFE225707A160082D233 /* Model.swift in Sources */,
+				B86BCFDC257074CF0082D233 /* Constant.swift in Sources */,
+				B86BCFDF257079250082D233 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
