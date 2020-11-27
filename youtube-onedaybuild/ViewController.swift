@@ -21,6 +21,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.dataSource = self
         model.delegate = self
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard tableView.indexPathForSelectedRow != nil else {return}
+        
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+        
+        let detailVC = segue.destination as! DetailViewController
+        detailVC.video = selectedVideo
+    }
+    
     func videoFetched(_ videos: [Video]) {
         self.videos = videos
         DispatchQueue.main.async {
@@ -42,6 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+    
 }
 
 
